@@ -1,0 +1,141 @@
+.answer {
+  background-color: #85a7ff;
+  border: 15px solid #85a7ff;
+  	color: #fff;
+}
+
+.answer:hover{
+  /*background: #9900cc;*/
+  background: #00ff00;
+	color: #fff;
+  border: 15px solid #00ff00;
+  /*border: 15px solid #9900cc;*/
+}
+
+.select {
+  background: #bf80ff;
+	color: #fff;
+  border: 15px solid #bf80ff;
+}
+.button {
+	display: inline-block;
+	border-radius: 4px;
+	background-color: #00cccc;
+	border: none;
+	color: #FFFFFF;
+	text-align: center;
+	font-size: 15px;
+	padding: 20px;
+	width: 220px;
+	transition: all 0.5s;
+	cursor: pointer;
+	margin: 5px;
+}
+
+.button span {
+	cursor: pointer;
+	display: inline-block;
+	position: relative;
+	transition: 0.5s;
+}
+
+.button span:after {
+	content: '\1f63b';
+	position: absolute;
+	opacity: 0;
+	top: 0;
+	right: -20px;
+	transition: 0.5s;
+}
+
+.button:hover span {
+	padding-right: 25px;
+}
+
+.button:hover span:after {
+	opacity: 1;
+	right: 0;
+}
+.button2 {
+	display: inline-block;
+	border-radius: 4px;
+	background-color: #ff9900;
+	border: none;
+	color: #FFFFFF;
+	text-align: center;
+	font-size: 15px;
+	padding:20px ;
+	width: 220px;
+	transition: all 0.5s;
+	cursor: pointer;
+	margin: 5px;
+}
+
+.button2 span {
+	cursor: pointer;
+	display: inline-block;
+	position: relative;
+	transition: 0.5s;
+}
+
+.button2 span:after {
+	content: '\1f640';
+	position: absolute;
+	opacity: 0;
+	top: 0;
+	right: -20px;
+	transition: 0.5s;
+}
+
+.button2:hover span {
+	padding-right: 25px;
+}
+
+.button2:hover span:after {
+	opacity: 1;
+	right: 0;
+}
+.songrec {
+  color: #ffbf00;
+}
+
+.delete {
+  display: inline-block;
+	border-radius: 4px;
+	  background: #ff0000;
+	border: none;
+	color: #FFFFFF;
+	text-align: center;
+	font-size: 15px;
+	padding: 20px;
+	width: 220px;
+	transition: all 0.5s;
+	cursor: pointer;
+	margin: 5px;
+}
+.restart {
+  display: inline-block;
+	border-radius: 4px;
+	background: #00cc00;
+	border: none;
+	color: #FFFFFF;
+	text-align: center;
+	font-size: 15px;
+	padding: 20px;
+	width: 220px;
+	transition: all 0.5s;
+	cursor: pointer;
+	margin: 5px;
+}
+.loggedin{
+color:  #00cccc;
+}
+
+.question {
+color:#9900cc;
+}
+
+.img{
+justify-content: center;
+  display: block;
+}
